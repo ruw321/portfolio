@@ -400,7 +400,7 @@ export const educationData = [
 ---
 
 # References:
-- 
+- [said7388-developer-portfolio](https://github.com/said7388/developer-portfolio)
 
 <!--
 # Contributors :man_technologist::woman_technologist:
