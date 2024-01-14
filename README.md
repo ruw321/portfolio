@@ -399,6 +399,9 @@ export const educationData = [
 
 ---
 
+# References:
+- 
+
 <!--
 # Contributors :man_technologist::woman_technologist:
 
@@ -415,8 +418,6 @@ export const educationData = [
 ## Setting Up Contacts form :envelope_with_arrow:
 
 > ### Follow these [instructions](https://github.com/hhhrrrttt222111/developer-portfolio/wiki/Contacts) to connect contacts form with Google Sheet
-
-
 
 
 
