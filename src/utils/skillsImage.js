@@ -72,7 +72,7 @@ import picsart from '../assets/svg/skills/picsart.svg'
 import sketch from '../assets/svg/skills/sketch.svg'
 import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
-
+import netCore from '../assets/svg/skills/.NET Core.png'
 import canva from '../assets/svg/skills/canva.svg'
 
 
@@ -227,7 +227,9 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case '.NET Core':
+            return netCore;
         default:
-            break;
+            return netCore;
     }
 }

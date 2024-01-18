@@ -3,3 +3,17 @@
   /* --primaryFont: 'Montserrat', sans-serif; */
   /* --primaryFont: 'Raleway', sans-serif; */
 }
+
+/* Container that holds all the sections */
+.parentContainer {
+    scroll-snap-type: y mandatory; /* Enables vertical scroll snapping */
+    overflow-y: scroll; /* Allows scrolling */
+    height: 100vh; /* Fits the viewport height */
+}
+
+/* Individual sections */
+.fullPageSection {
+scroll-snap-align: start; /* Aligns the top of the section with the top of the viewport */
+height: 100vh; /* Each section takes up the full viewport height */
+/* Add other styles as needed */
+}

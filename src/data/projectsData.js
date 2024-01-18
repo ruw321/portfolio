@@ -1,35 +1,57 @@
-import eight from '../assets/svg/projects/eight.svg'
-import seven from '../assets/svg/projects/seven.svg'
-import six from '../assets/svg/projects/six.svg'
-
-
 export const projectsData = [
     {
         id: 1,
-        projectName: 'Ayla Networks',
-        projectDesc: 'This project about Simplifying the Development of Smart Home & IoT Solutions.',
-        tags: ['React', 'SAAS', 'React Bootstrap'],
-        code: '',
-        demo: 'https://www.aylanetworks.com/',
-        image: six
+        projectName: 'PennCloud',
+        projectDesc: 'The project is a small cloud platform including features such as webmail service and key-value storage service which is similar to Google Bigtableabout Simplifying the Development of Smart Home & IoT Solutions.',
+        tags: ['C++', 'TCP', 'Distributed Systems'],
+        code: 'https://github.com/ruw321/GoogleSmallTable',
+        demo: 'https://github.com/ruw321/GoogleSmallTable',
+        image: '/PennCloud.jpg'
     },
     {
         id: 2,
-        projectName: 'Jewelry Niche',
-        projectDesc: 'This project is a Jewelry shop, Customer can be buy product and manage them and make payment.',
-        tags: ['React', 'Express', 'Material Ui'],
-        code: 'https://github.com/said7388/jewelry-niche',
-        demo: 'https://pandora-web.netlify.app/',
-        image: seven
+        projectName: 'PubMigrations',
+        projectDesc: 'A major issue faced by all developing economies is the emigration of their most educated population. This is known as a brain drain and it often limits the growth of developing countries. This project is a React WebApp that allows users to explore intriguing info regarding researchers’ migrations.',
+        tags: ['React', 'Express', 'MongoDB', 'MySQL'],
+        code: 'https://github.com/ruw321/PubMigrations',
+        demo: 'https://github.com/ruw321/PubMigrations',
+        image: '/PubMigration.png'
     },
     {
         id: 3,
-        projectName: 'Travel Agency',
-        projectDesc: 'This project about travel agency management.',
-        tags: ['React', 'CSS', 'Material Ui'],
-        code: 'https://github.com/said7388/Travel-Agency-client',
-        demo: 'https://travel-agency-fc58b.web.app/',
-        image: eight
+        projectName: 'Penn Lobby',
+        projectDesc: 'Penn Lobby is a single-page application using a full stack React.js and Node.js development tool that allow UPenn students to create groups, share posts, comment under posts as well as send private chat.',
+        tags: ['React', 'NodeJS', 'Material Ui'],
+        code: 'https://github.com/ruw321/PennLobby',
+        demo: 'https://github.com/ruw321/PennLobby',
+        image: 'PennLobby.jpg'
+    },
+    {
+        id: 4,
+        projectName: 'PennCloud',
+        projectDesc: 'The project is a small cloud platform including features such as webmail service and key-value storage service which is similar to Google Bigtableabout Simplifying the Development of Smart Home & IoT Solutions.',
+        tags: ['C++', 'TCP', 'Distributed Systems'],
+        code: 'https://github.com/ruw321/GoogleSmallTable',
+        demo: 'https://github.com/ruw321/GoogleSmallTable',
+        image: '/PennCloud.jpg'
+    },
+    {
+        id: 5,
+        projectName: 'PubMigrations',
+        projectDesc: 'A major issue faced by all developing economies is the emigration of their most educated population. This is known as a brain drain and it often limits the growth of developing countries. This project is a React WebApp that allows users to explore intriguing info regarding researchers’ migrations.',
+        tags: ['React', 'Express', 'MongoDB', 'MySQL'],
+        code: 'https://github.com/ruw321/PubMigrations',
+        demo: 'https://github.com/ruw321/PubMigrations',
+        image: '/PubMigration.png'
+    },
+    {
+        id: 6,
+        projectName: 'Penn Lobby',
+        projectDesc: 'Penn Lobby is a single-page application using a full stack React.js and Node.js development tool that allow UPenn students to create groups, share posts, comment under posts as well as send private chat.',
+        tags: ['React', 'NodeJS', 'Material Ui'],
+        code: 'https://github.com/ruw321/PennLobby',
+        demo: 'https://github.com/ruw321/PennLobby',
+        image: 'PennLobby.jpg'
     }
 ]
 

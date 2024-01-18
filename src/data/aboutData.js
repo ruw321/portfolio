@@ -1,5 +1,6 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name is ABU SAID. I'm a web designer and developer based in Dhaka, Bangladesh.",
-    description2: "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    description1: "I am currently working as a Full-Stack Developer at Federal Home Loan Bank of Dallas since July 2023, where I take full ownership of each project and navigating the full spectrum of the software development lifecycle within an agile work environment. ",
+    description2: "My role involves both developing new software solutions from the ground up as well as revitalizing and building upon existing legacy applications to align them with current technological advancements and business objectives.",
+    description3: "Interested in launching a full-time career in entry-mid level software engineering related fields. Please reach out to me about any job opportunities or entrepreneurship ideas, or just curious about my experience."
 }

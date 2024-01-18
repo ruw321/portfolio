@@ -1,6 +1,5 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
-import Blog from '../../components/container/blog'
 import Contacts from '../../components/container/contacts'
 import Landing from '../../components/container/landing'
 import Navbar from '../../components/container/navbar'
@@ -13,7 +12,7 @@ import { headerData } from '../../data/headerData'
 
 function HomePage() {
     return (
-        <div>
+        <div className='parentContainer'>
             <Helmet>
                 <title>{headerData.name} - Porfolio</title>
             </Helmet>
@@ -22,10 +21,8 @@ function HomePage() {
             <About />
             <Experience />
             <Skills />
-            {/* <Certificate /> */}
             <Projects />
             <Education />
-            <Blog />
             <Contacts />
         </div>
     )
