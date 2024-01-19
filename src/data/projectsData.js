@@ -6,7 +6,7 @@ export const projectsData = [
         tags: ['C++', 'TCP', 'Distributed Systems'],
         code: 'https://github.com/ruw321/GoogleSmallTable',
         demo: 'https://github.com/ruw321/GoogleSmallTable',
-        image: 'project/PennCloud.jpg'
+        image: '/img/project/PennCloud.jpg'
     },
     {
         id: 2,
@@ -15,7 +15,7 @@ export const projectsData = [
         tags: ['React', 'Express', 'MongoDB', 'MySQL'],
         code: 'https://github.com/ruw321/PubMigrations',
         demo: 'https://github.com/ruw321/PubMigrations',
-        image: 'project/PubMigration.png'
+        image: '/img/project/PubMigration.png'
     },
     {
         id: 3,
@@ -24,7 +24,7 @@ export const projectsData = [
         tags: ['React', 'NodeJS', 'Material Ui'],
         code: 'https://github.com/ruw321/PennLobby',
         demo: 'https://github.com/ruw321/PennLobby',
-        image: 'project/PennLobby.jpg'
+        image: '/img/project/PennLobby.jpg'
     },
     {
         id: 4,
@@ -33,7 +33,7 @@ export const projectsData = [
         tags: ['C++', 'Computer Graphics'],
         code: 'https://github.com/ruw321/mini_minecraft',
         demo: 'https://www.youtube.com/watch?v=YDFq1TONUFo',
-        image: 'project/MiniMinecraft.svg'
+        image: '/img/project/MiniMinecraft.svg'
     },
     {
         id: 5,
@@ -42,7 +42,7 @@ export const projectsData = [
         tags: ['Swift', 'iOS', 'Mobile App'],
         code: 'https://github.com/ruw321/Instag',
         demo: 'https://github.com/ruw321/Instag/blob/main/instaDemo.gif',
-        image: 'project/Instag.svg'
+        image: '/img/project/Instag.svg'
     }
 ]
 

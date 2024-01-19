@@ -4,15 +4,12 @@ import { HashLink as NavLink } from 'react-router-hash-link';
 import Typed from 'react-typed';
 import { headerData } from '../../../data/headerData';
 import './landing.css';
-
 import {
     FaGithub, FaLinkedin
 } from 'react-icons/fa';
 import { contactsData } from '../../../data/contactsData';
 
 function LandingUI({ theme, drawerOpen, classes }) {
-
-
     return (
         <div className="fullPageSection">
             <div className='landing' style={{ backgroundColor: theme.quaternary }}>
@@ -51,7 +48,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         </div>
                     </div>
                     <img
-                        src={headerData.ProfileImage}
+                        src={process.env.PUBLIC_URL + headerData.ProfileImage}
                         alt=''
                         className='landing--img'
                         style={{

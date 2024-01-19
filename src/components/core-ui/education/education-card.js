@@ -19,7 +19,7 @@ function EducationCard({ id, institution, link, logo, course, startYear, endYear
     const classes = useStyles();
 
     const finalStyle = (logo === null || logo === '') ? { backgroundColor: theme.primary } : {};
-    const finalImgSrc = (logo === null || logo === '') ? (theme.type === 'light' ? eduImgBlack : eduImgWhite) : logo;
+    const finalImgSrc = (logo === null || logo === '') ? (theme.type === 'light' ? eduImgBlack : eduImgWhite) : process.env.PUBLIC_URL + logo;
     const finalImgStyle = (logo === null || logo === '') ? { width: '40px' } : { width: '70px' };
 
     return (

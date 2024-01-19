@@ -21,7 +21,7 @@ function SingleProjectUI({ id, name, desc, tags, code, demo, image, theme, class
                     >
                         {name}
                     </h2>
-                    <img src={image ? image : placeholder} alt={name} />
+                    <img src={image ? process.env.PUBLIC_URL + image : placeholder} alt={name} />
                     <div className='project--showcaseBtn'>
                         <a
                             href={demo}
