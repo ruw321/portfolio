@@ -52,10 +52,6 @@
   flex-shrink: 0;
 }
 
-.educard-img>img {
-  width: 40px;
-}
-
 .education-details {
   margin-left: 0.6rem;
 }
@@ -71,9 +67,10 @@
   font-family: var(--primaryFont);
   font-size: 1.225rem;
   font-weight: 600;
+  margin-bottom: 0.5rem;
 }
 
-.education-details>h5 {
+.education-details>a {
   font-family: var(--primaryFont);
   font-size: 1.15rem;
   font-weight: 600;

@@ -6,7 +6,7 @@ import eduImgWhite from '../../../assets/svg/education/eduImgWhite.svg';
 import { ThemeContext } from '../../../contexts/theme-context';
 import './education.css';
 
-function EducationCard({ id, institution, course, startYear, endYear }) {
+function EducationCard({ id, institution, link, logo, course, startYear, endYear }) {
 
     const { theme } = useContext(ThemeContext);
 
@@ -18,16 +18,20 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
 
     const classes = useStyles();
 
+    const finalStyle = (logo === null || logo === '') ? { backgroundColor: theme.primary } : {};
+    const finalImgSrc = (logo === null || logo === '') ? (theme.type === 'light' ? eduImgBlack : eduImgWhite) : logo;
+    const finalImgStyle = (logo === null || logo === '') ? { width: '40px' } : { width: '70px' };
+
     return (
         <Fade bottom>
             <div key={id} className={`education-card ${classes.educationCard}`} >
-                <div className="educard-img" style={{ backgroundColor: theme.primary }}>
-                    <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
+                <div className="educard-img" style={finalStyle}>
+                    <img style={finalImgStyle} src={finalImgSrc} alt="" />
                 </div>
                 <div className="education-details">
                     <h6 style={{ color: theme.primary }}>{startYear}-{endYear}</h6>
                     <h4 style={{ color: theme.tertiary }}>{course}</h4>
-                    <h5 style={{ color: theme.tertiary }}>{institution}</h5>
+                    <a style={{ color: theme.tertiary }} href={link}>{institution}</a>
                 </div>
             </div>
         </Fade>

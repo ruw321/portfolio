@@ -2,6 +2,8 @@ export const educationData = [
     {
         id: 1,
         institution: 'University of Pennsylvania',
+        link: 'https://www.upenn.edu',
+        logo: 'education/UPenn.png',
         course: 'Master\'s Degree',
         startYear: '2021',
         endYear: '2023'
@@ -9,13 +11,17 @@ export const educationData = [
     {
         id: 2,
         institution: 'Lehigh University',
-        course: 'Bachelor Degree',
+        link: 'https://www2.lehigh.edu',
+        logo: 'education/Lehigh.svg',
+        course: 'Bachelor\'s Degree',
         startYear: '2017',
         endYear: '2021'
     },
     {
         id: 3,
         institution: 'Khartoum American School (Sudan)',
+        link: 'https://www.krtams.org',
+        logo: '',
         course: 'High School Diploma',
         startYear: '2012',
         endYear: '2017'
