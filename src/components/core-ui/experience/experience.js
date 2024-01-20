@@ -19,7 +19,7 @@ function Experience() {
                             <AnimationLottie animationPath={experience} />
                         </div>
                         <div className="experience-description">
-                            <h1 style={{ color: theme.primary }}>Experience</h1>
+                            <h1 style={{ color: theme.primary }}>Experiences</h1>
                             {experienceData.map(exp => (
                                 <ExperienceCard
                                     key={exp.id}

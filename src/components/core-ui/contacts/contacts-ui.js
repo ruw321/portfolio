@@ -1,10 +1,10 @@
-import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
+// import { IconButton, Snackbar, SnackbarContent } from '@mui/material';
 import React, { useContext } from 'react';
-import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
+// import { AiOutlineCheckCircle, AiOutlineSend } from 'react-icons/ai';
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { FiAtSign, FiPhone } from 'react-icons/fi';
 import { HiOutlineLocationMarker } from 'react-icons/hi';
-import { IoClose } from 'react-icons/io5';
+// import { IoClose } from 'react-icons/io5';
 import { ThemeContext } from '../../../contexts/theme-context';
 import { contactsData } from '../../../data/contactsData';
 import './contacts.css';
@@ -22,7 +22,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 <div className='contacts--container'>
                     <h1 style={{ color: theme.primary }}>Contacts</h1>
                     <div className='contacts-body'>
-                        <div className='contacts-form'>
+                        {/* <div className='contacts-form'>
                             <form ref={form} onSubmit={handleContactForm}>
                                 <div className='input-container'>
                                     <label htmlFor='Name' className={classes.label}>
@@ -131,7 +131,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                                     message={errMsg}
                                 />
                             </Snackbar>
-                        </div>
+                        </div> */}
 
                         <div className='contacts-details'>
                             <a

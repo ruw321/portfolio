@@ -88,7 +88,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                         rel='noreferrer'
                                     >
                                         <button className={classes.resumeBtn}>
-                                            See My Resume
+                                            Resume
                                         </button>
                                     </a>
                                 )}
