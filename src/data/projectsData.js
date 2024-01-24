@@ -2,7 +2,7 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'Penn Cloud',
-        projectDesc: 'The project is a small cloud platform including features such as webmail service and key-value storage service which is similar to Google Bigtableabout Simplifying the Development of Smart Home & IoT Solutions.',
+        projectDesc: 'PennCloud is a toy cloud platform where we simulated distributed systems environment with a load balancer for multiple instances of frontend servers as well as multiple backend servers with a master backend node.',
         tags: ['C++', 'TCP', 'Distributed Systems'],
         code: 'https://github.com/ruw321/GoogleSmallTable',
         demo: 'https://github.com/ruw321/GoogleSmallTable',
